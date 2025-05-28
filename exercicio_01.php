@@ -19,7 +19,7 @@ $situacao = ($media >= 7) ? "APROVADO" : "REPROVADO";
     <h2>Resultado</h2>
     <p><strong>Média:</strong> <?= number_format($media, 2, ',', '.') ?></p>
     <p><strong>Situação:</strong> <?= $situacao ?></p>
-    <a href="exercicio_01_form.html" class="btn btn-secondary mt-3">Voltar</a>
+    <a href="Home.html" class="btn btn-secondary mt-3">Voltar</a>
   </div>
 </body>
 </html>
